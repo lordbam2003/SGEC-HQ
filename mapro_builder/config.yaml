@@ -1,0 +1,67 @@
+# =====================================================
+# CONFIGURACIÓN DEL ESTABLECIMIENTO
+# =====================================================
+establecimiento:
+  nombre: "Hospital Regional del Cusco"
+  codigo_ue: "402"
+  departamento: "Departamento de Apoyo al Diagnóstico y Tratamiento"
+  servicio: "Servicio de Patología Clínica"
+  anio: 2026
+  version: "1.0"
+  ciudad: "Cusco"
+
+# =====================================================
+# PARÁMETROS DE FILTRADO
+# =====================================================
+filtros:
+  upss_objetivo: "BIOQUIMICA"              # UPSS a documentar
+  estado_procedimientos: "ACTIVO"          # Solo procedimientos activos
+  tipos_equipamiento_relevantes:
+    - "EQUIPO"
+    - "EQUIPOS COMPUTACIONALES Y PERIFÉRICOS"
+  excluir_equipamiento:
+    - "MOBILIARIO DE OFICINA"
+    - "MOBILIARIO"
+    - "MUEBLES Y ENSERES NO DEPRECIABLE"
+    - "AIRE ACONDICIONADO Y REFRIGERACIÓN"
+
+# =====================================================
+# MAPEO DE ROLES (BD → MAPRO)
+# =====================================================
+roles_mapro:
+  "BIOLOGO": "Tecnólogo Médico"
+  "TECNICO EN LABORATORIO": "Técnico de Laboratorio"
+  "TECNICO EN LABORATORIO I": "Técnico de Laboratorio"
+  "MEDICO PATOLOGO": "Médico Patólogo"
+
+# =====================================================
+# CLASIFICACIÓN DE INSUMOS
+# =====================================================
+clasificacion_insumos:
+  EPP:
+    - "GUANTE"
+    - "MASCARILLA"
+    - "GORRO"
+    - "MANDILON"
+    - "GAFAS"
+  REACTIVO:
+    - "REACTIVO"
+    - "TIRA"
+    - "CALIBRADOR"
+    - "CONTROL"
+  MATERIAL:
+    - "TUBO"
+    - "PAPEL"
+    - "TINTA"
+    - "PLUMON"
+    - "BOLIGRAFO"
+    - "LAMINA"
+
+# =====================================================
+# PLANTILLA BASE
+# =====================================================
+plantilla_base:
+  ruta_pdf: "./insumos/MAPRO-BIOQUIMICA.pdf"
+  glosario_extraer: true
+  base_legal_extraer: true
+  formato_ficha: "MINSA_ESTANDAR"

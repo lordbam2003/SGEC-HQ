@@ -1,0 +1,76 @@
+# ==============================================================================
+# .gitignore - SGEC-HQ (Hospital Quillabamba)
+# ==============================================================================
+
+# --- Archivos de Datos y Hojas de Cálculo ---
+*.xlsx
+*.xls
+*.xlsm
+*.csv
+excel_summary.json
+
+# --- Entornos Virtuales de Python ---
+venv/
+env/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# --- Variables de Entorno y Credenciales Sensibles ---
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+
+# --- Bytecode y Caché de Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# --- Pruebas y Cobertura ---
+.pytest_cache/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# --- Logs y Temporales ---
+*.log
+logs/
+temp/
+tmp/
+
+# --- Configuraciones de Editores e IDEs ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+Desktop.ini

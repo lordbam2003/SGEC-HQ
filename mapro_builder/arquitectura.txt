@@ -1,0 +1,34 @@
+mapro-generator/
+│
+├── config.yaml                          # Configuración parametrizable
+├── requirements.txt                     # Dependencias Python
+│
+├── insumos/
+│   ├── MAPRO-BIOQUIMICA.pdf            # PDF base (plantilla)
+│   └── logos/                           # Logos institucionales
+│
+├── datos/
+│   └── costeo_hospitalario.db          # Base de datos SQLite/MySQL
+│
+├── src/
+│   ├── db_adapter.py                   # Adaptador BD → Objetos Python
+│   ├── pdf_parser.py                   # Extracción de estructura del PDF
+│   ├── mapro_builder.py                # Constructor principal del MAPRO
+│   ├── word_generator.py               # Generador Word con python-docx
+│   ├── mermaid_renderer.py             # Generador de flujogramas
+│   └── ia_adapter.py                   # Integración con LLM local
+│
+├── templates/
+│   ├── portada.md
+│   ├── capitulo_I.md
+│   ├── capitulo_II.md
+│   ├── capitulo_III.md
+│   ├── capitulo_IV.md
+│   ├── capitulo_V_ficha.md
+│   └── capitulo_V_flujograma.md
+│
+├── output/
+│   └── MAPRO_Generado.docx             # Documento final editable
+│
+└── logs/
+    └── generacion.log

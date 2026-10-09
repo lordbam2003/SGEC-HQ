@@ -1,0 +1,47 @@
+┌─────────────────────────────────────────────────────────────┐
+│ Análisis de orina por tira de análisis o reactivo en       │
+│ tableta...                                                  │
+├─────────────────────────────────────────────────────────────┤
+│ CÓDIGO CPMS: 81001          TIEMPO TOTAL: 18.0 min         │
+│ COSTO ESTÁNDAR: S/. 22.977                                  │
+├─────────────────────────────────────────────────────────────┤
+│ OBJETIVO                                                    │
+│ Establecer el procedimiento para la ejecución de Análisis   │
+│ de orina por tira de análisis...                            │
+├─────────────────────────────────────────────────────────────┤
+│ MATERIALES Y EQUIPOS                                        │
+│ Equipos:                                                    │
+│ - CENTRIFUGA PARA HEMATOCRITO...                           │
+│ - MICROSCOPIO BINOCULAR                                     │
+│ - ROTADOR SEROLOGICO                                        │
+│                                                             │
+│ Equipo de protección personal:                             │
+│ - GUANTE PARA EXAMEN DESCARTABLE...                        │
+│ - MASCARILLA DESCARTABLE QUIRURGICA...                     │
+│ - GORRO DE CIRUGÍA...                                       │
+├─────────────────────────────────────────────────────────────┤
+│ DESCRIPCIÓN DE PROCEDIMIENTOS                              │
+│                                                             │
+│ FASE 1: PRE-ANALÍTICA                                      │
+│ Registro, orientación y recepción de la muestra            │
+│ Responsable: Técnico de Laboratorio                        │
+│                                                             │
+│ FASE 2: ANALÍTICA                                          │
+│ Procesamiento y lectura de la muestra                      │
+│ Responsable: Biólogo → Tecnólogo Médico                    │
+│ Reactivos:                                                  │
+│ - TIRA REACTIVA PARA ORINA DE 11 PARAMETROS (1 UNIDAD)    │
+│                                                             │
+│ FASE 3: POST-ANALÍTICA                                     │
+│ Registro y entrega de resultados                           │
+│ Responsable: Técnico de Laboratorio                        │
+├─────────────────────────────────────────────────────────────┤
+│ CRITERIOS DE RECHAZO                                       │
+│ - Muestras mal rotuladas o identificadas.                  │
+│ - Muestras con volumen insuficiente.                       │
+│ - Muestras hemolizadas o coaguladas.                       │
+├─────────────────────────────────────────────────────────────┤
+│ FLUJOGRAMA                                                  │
+│ [INICIO] → [PRE-ANALÍTICA] → [ANALÍTICA] → [POST-ANALÍTICA]│
+│ → [FIN]                                                     │
+└─────────────────────────────────────────────────────────────┘

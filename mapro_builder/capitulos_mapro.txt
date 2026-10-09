@@ -1,0 +1,32 @@
+┌─────────────────────────────────────────────────────────────────┐
+│                    BASE DE DATOS DE COSTEO                       │
+├─────────────────────────────────────────────────────────────────┤
+│ cat_servicios ──────────┐                                       │
+│ cat_cpms ───────────────┤                                       │
+│ costeo_procedimientos ──┼───┬──→ CAPÍTULO IV (Inventario)       │
+│ costeo_fases ───────────┘   │                                   │
+│                              ├──→ CAPÍTULO V (Fichas Técnicas)  │
+│ costeo_fase_rrhh ────────────┤                                  │
+│ costeo_fase_insumos ─────────┤                                  │
+│ costeo_fase_equipos ─────────┤                                  │
+│ cat_rrhh ────────────────────┼──→ CAPÍTULO II (Responsables)    │
+│ cat_equipamiento ────────────┤                                  │
+│ cat_insumos ─────────────────┘                                  │
+│                                                                  │
+│ cat_infraestructura ────────┬──→ CAPÍTULO II (Infraestructura)  │
+│ cat_servicios_basicos ──────┤                                   │
+│ cat_costos_indirectos ──────┘                                   │
+└─────────────────────────────────────────────────────────────────┘
+                              ↓
+┌─────────────────────────────────────────────────────────────────┐
+│                    PDF BASE (MAPRO-BIOQUIMICA)                   │
+│  • Estructura de 5 capítulos                                    │
+│  • Glosario de términos                                         │
+│  • Base legal                                                   │
+│  • Formato de fichas técnicas                                   │
+│  • Estilo de flujogramas                                        │
+└─────────────────────────────────────────────────────────────────┘
+                              ↓
+┌─────────────────────────────────────────────────────────────────┐
+│              DOCUMENTO WORD EDITABLE (MAPRO_FINAL.docx)          │
+└─────────────────────────────────────────────────────────────────┘

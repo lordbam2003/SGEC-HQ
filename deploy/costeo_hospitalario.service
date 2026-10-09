@@ -1,0 +1,24 @@
+[Unit]
+Description=Sistema de Costeo Hospitalario y Propuesta Tarifaria (FastAPI + Uvicorn)
+After=network.target mysql.service mariadb.service
+Wants=network.target
+
+[Service]
+Type=simple
+User=www-data
+Group=www-data
+WorkingDirectory=/var/www/costeo_hospitalario
+EnvironmentFile=/var/www/costeo_hospitalario/.env
+ExecStart=/var/www/costeo_hospitalario/venv/bin/python -m uvicorn backend.app.main:app --host 127.0.0.1 --port 8050 --workers 2 --proxy-headers --forwarded-allow-ips='*'
+Restart=always
+RestartSec=5
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=costeo_hospitalario
+
+# Límites de seguridad y recursos
+LimitNOFILE=65535
+PrivateTmp=true
+
+[Install]
+WantedBy=multi-user.target
